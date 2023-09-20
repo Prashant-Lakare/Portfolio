@@ -13,7 +13,7 @@ body {
 
 .aside-cont {
     width: 35vw;
-    height: 100vh;
+    height: 100%;
     background-color: #155e91;
     color: white;
 
@@ -29,7 +29,7 @@ body {
 
 .section-cont {
     width: 55vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(0, 255, 255);
 }
 .sec-overview{
@@ -46,6 +46,32 @@ body {
         margin: 0;
         flex-direction: row;
     }
+}
+@media only screen and (max-width:570px) {
+    
+    .potcontainer {
+        margin: 0;
+        flex-direction: column;
+    }
+    .section-cont {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 255, 255);
+    }
+    .aside-cont {
+        width: 100%;
+        height: 100%;
+        background-color: #155e91;
+        color: white;
+    
+    }
+    .sec-overview{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 255, 255);
+
+
+}
 }
 
 .image-holder {
@@ -183,7 +209,7 @@ ul>li {
 .pers-det-ul{
     display: flex;
     justify-content: space-around;
-    margin: 15px 0px 10px 0px;
+    margin: 15px 15px 10px 0px;
 }
 .det{
     border-radius: 5%;
